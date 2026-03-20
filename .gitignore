@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+.venv313/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Tiktoken cache
+*.tiktoken
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files
+results.csv
+results.json
+*.output.csv
+*.output.json
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# Data (large files — commit only intentionally)
+data/*.pdf
+data/*.xlsx
